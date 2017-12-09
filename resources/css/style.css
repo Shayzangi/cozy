@@ -1,0 +1,52 @@
+*{
+background-color: black;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+}
+div {
+  border: 2px solid white;
+}
+
+
+.menu{
+  width: 150px;
+}
+
+
+
+.logoimg{
+  height: 50px;
+  padding-left: 10px;
+}
+
+.box
+{
+  background-color: green;
+  border: 2px solid red;
+  height: 22px;
+
+}
+
+.container
+{
+  display: flex;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+
+}
+.logo
+{
+  height: 50px;
+  text-align: left;
+  width: 200px;
+
+}
+.empty{
+  width: 400px;
+  flex-shrink: 5;
+  flex-grow: 1;
+}
